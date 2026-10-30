@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Assistance – LX Rig</title><style>:root{--bg:#f3f1ec;--fg:#1b1a17;--muted:#77736a;--line:#dfdbd2;--accent:#a85f00}
+@media(prefers-color-scheme:dark){:root{--bg:#0f0f10;--fg:#ebe8e1;--muted:#8b877e;--line:#262629;--accent:#f2aa35}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:700px;margin:0 auto;padding:28px 20px 60px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:700;font-size:15px;margin-bottom:26px}
+.brand::before{content:"";width:8px;height:8px;background:var(--accent);border-radius:1px;box-shadow:0 0 8px var(--accent)}
+h1{font-size:24px;margin:0 0 4px;letter-spacing:-.01em}
+h2{counter-increment:s;display:flex;gap:10px;align-items:baseline;font-size:16px;font-weight:650;margin:30px 0 8px;padding-top:18px;border-top:1px solid var(--line)}
+h2::before{content:counter(s,decimal-leading-zero);font:500 11px ui-monospace,"SF Mono",Menlo,monospace;color:var(--accent)}
+body{counter-reset:s}
+p,li{margin:6px 0}ul{padding-left:20px}
+.date,.lang{color:var(--muted);font-size:13px}
+a{color:var(--accent)}
+hr{border:0;border-top:1px solid var(--line);margin:48px 0 8px}
+code{font:13px ui-monospace,"SF Mono",Menlo,monospace}</style></head><body><main>
+<div class="brand">LX Rig</div>
+<p class="lang"><a href="#en">English version ↓</a></p>
+<h1>Assistance</h1>
+<p>Une question, un bug, une idée ? Écrivez à <a href="mailto:yann@onecue.co">yann@onecue.co</a>. Précisez le modèle d'iPhone, la version d'iOS et, si possible, le fichier concerné.</p>
+<h2>Questions fréquentes</h2>
+<p><strong>Je n'ai pas de fichier MVR, comment essayer l'app ?</strong><br>Sur l'écran d'accueil, touchez « Rig d'exemple » : l'app construit seize lyres patchées.</p>
+<p><strong>Mon MVR n'a que des cubes ou des silhouettes, pas de vrais modèles.</strong><br>Certains exports (Capture notamment) vident les fiches GDTF de leur géométrie. Dans l'onglet Rig › Résumé › Modèles 3D, remplacez le GDTF d'un type par la vraie fiche, depuis votre bibliothèque ou depuis GDTF Share.</p>
+<h2>Envoyer du DMX</h2>
+<p><strong>Comment tester une machine ?</strong><br>Onglet DMX › Tester les machines. Choisissez sACN ou Art-Net, saisissez l'adresse IP du nœud ou du pupitre, armez la sortie, puis choisissez les machines. Le téléphone et le nœud doivent être sur le même réseau.</p>
+<p><strong>Rien ne sort en mode « diffusion ».</strong><br>iOS réserve la diffusion générale et le multicast aux applications autorisées par Apple. Visez directement l'adresse IP du nœud ou du pupitre.</p>
+<p><strong>Où sont mes fichiers ?</strong><br>Dans l'app Fichiers, sous « Sur mon iPhone › LX Rig ».</p>
+<h2>Autres</h2>
+<p><strong>Changer de langue.</strong> Le globe en haut à gauche de l'accueil, ou Outils › À propos.</p>
+<p><strong>GDTF Share demande un compte.</strong> Oui, gratuit, sur gdtf-share.com. Tout le reste de l'app fonctionne sans.</p>
+<p><a href="privacy.html">Politique de confidentialité</a></p>
+<hr id="en">
+<p class="lang" lang="en"></p>
+<div lang="en">
+<h1>Support</h1>
+<p>A question, a bug, an idea? Write to <a href="mailto:yann@onecue.co">yann@onecue.co</a>. Please include your iPhone model, iOS version and, if possible, the file concerned.</p>
+<h2>Frequently asked questions</h2>
+<p><strong>I have no MVR file. How can I try the app?</strong><br>On the home screen, tap "Sample rig": the app builds sixteen patched moving heads.</p>
+<p><strong>My MVR only shows cubes or silhouettes, not real models.</strong><br>Some exports (Capture in particular) strip the geometry out of the GDTF files. In the Rig tab › Summary › 3D models, replace a type's GDTF with the real file, from your library or from GDTF Share.</p>
+<h2>Sending DMX</h2>
+<p><strong>How do I test a fixture?</strong><br>DMX tab › Test the machines. Choose sACN or Art-Net, type the IP address of the node or console, arm the output, then pick fixtures. The phone and the node must be on the same network.</p>
+<p><strong>Nothing goes out in "broadcast" mode.</strong><br>iOS reserves general broadcast and multicast for apps Apple has authorised. Aim directly at the IP address of the node or console.</p>
+<p><strong>Where are my files?</strong><br>In the Files app, under "On My iPhone › LX Rig".</p>
+<h2>Other</h2>
+<p><strong>Changing language.</strong> The globe at the top left of the home screen, or Tools › About.</p>
+<p><strong>GDTF Share asks for an account.</strong> Yes, a free one, on gdtf-share.com. Everything else in the app works without it.</p>
+<p><a href="privacy.html#en">Privacy policy</a></p>
+</div></main></body></html>
